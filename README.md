@@ -1,4 +1,4 @@
-# Jakov Vrdoljak - Microelectronics & Embedded Systems Portfolio
+# Jakov Vrdoljak - Portfolio
 Electronics engineer specializing in microelectronics and embedded hardware. Experienced in IC design, PCB routing, and NB-IoT development.
 
 ## Work Experience
