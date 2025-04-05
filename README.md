@@ -33,8 +33,8 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
   - *Bootstrap schematics and layout*
      <table>  
       <tr>  
-        <td><img src="/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="600"></td>  
-        <td><img src="/Layout_Bts.png" alt="Bootstrap Layout" width="600"></td>  
+        <td><img src="/Images/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="600"></td>  
+        <td><img src="/Images/Layout_Bts.png" alt="Bootstrap Layout" width="600"></td>  
       </tr>  
       <tr>  
         <td>Bootstrap Switch Schematic</td>  
@@ -47,10 +47,10 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
   - *Schemtics*
     <table>  
       <tr>  
-        <td><img src="/Preklopljena_kaskoda.png" alt="Folded-casocode" width="600"></td>  
-        <td><img src="/Napajanje.png" alt="Power supply" width="600"></td>  
-        <td><img src="/iref.png" alt="Constant-current generator and startup circuit" width="600"></td>  
-        <td><img src="/PK_FB.png" alt="Feedback loop" width="600"></td>
+        <td><img src="/Images/Preklopljena_kaskoda.png" alt="Folded-casocode" width="600"></td>  
+        <td><img src="/Images/Napajanje.png" alt="Power supply" width="600"></td>  
+        <td><img src="/Images/iref.png" alt="Constant-current generator and startup circuit" width="600"></td>  
+        <td><img src="/Images/PK_FB.png" alt="Feedback loop" width="600"></td>
       </tr>  
       <tr>  
         <td>Folded-casocode</td>  
