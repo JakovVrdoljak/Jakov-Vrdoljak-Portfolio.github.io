@@ -41,9 +41,25 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td>Bootstrap Switch Layout</td>  
       </tr>  
     </table>
-  - Built a folded-cascode op-amp (60 dB gain, 100 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
-  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.  
-  - Compared three configurations—full CMOS switches, bootstrap switches only at the input, and full bootstrap switches—evaluating power (reduced by 15% in bootstrap input case) and linearity; completed layout for the second variant.  
+  - Built a folded-cascode op-amp (65 dB gain, 8.81 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
+  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.
+  - Designed the amplifier layout and feedback loop, extracted parasitics, and compared post-layout performance with pre-layout analysis.
+  - *Schemtics*
+    <table>  
+      <tr>  
+        <td><img src="/Preklopljena_kaskoda.png" alt="Folded-casocode" width="600"></td>  
+        <td><img src="/Napajanje.png" alt="Power supply" width="600"></td>  
+        <td><img src="/iref.png" alt="Constant-current generator and startup circuit" width="600"></td>  
+        <td><img src="/PK_FB.png" alt="Feedback loop" width="600"></td>
+      </tr>  
+      <tr>  
+        <td>Folded-casocode</td>  
+        <td>Power supply</td>  
+        <td>Constant-current generator and startup circuit</td>  
+        <td>Feedback loop</td>  
+      </tr>  
+    </table>
+  - Compared three configurations—full CMOS switches, bootstrap switches only at the input, and full bootstrap switches—evaluating power and linearity; completed layout for the second variant.  
   - [Schematic](/bootstrap_switch_schematic.png) | [Layout](/Layout_Bts.png) | [Simulation Results](/thesis_sim.pdf)
 - **RF Circuits: High-Pass Filter**  
   *October 2022 - February 2023*  
