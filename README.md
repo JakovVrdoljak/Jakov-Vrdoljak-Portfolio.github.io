@@ -30,7 +30,7 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
   - Designed a switched-capacitance amplifier with a bootstrap switch for a 8-bit pipeline ADC in 180nm CMOS technology using Cadence Virtuoso.  
   - Developed and compared a bootstrap switch (on-resistance <400Ω) against a standard CMOS switch, analyzing THD (-65 dB), SNR (58 dB), and SFDR (70 dB) via transient simulations.  
   - Created the switch layout, extracted parasitic components (e.g., capacitance, resistance), and compared performance degradation against the ideal bootstrap design.
-  - [Schematic](/Bootstrap_switch.png)
+  - ![Schematic](/Bootstrap_switch.png)
   - Built a folded-cascode op-amp (60 dB gain, 100 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
   - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.  
   - Compared three configurations—full CMOS switches, bootstrap switches only at the input, and full bootstrap switches—evaluating power (reduced by 15% in bootstrap input case) and linearity; completed layout for the second variant.  
