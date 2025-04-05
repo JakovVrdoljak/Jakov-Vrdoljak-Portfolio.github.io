@@ -33,12 +33,12 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
   - *Bootstrap schematics and layout*
      <table>  
       <tr>  
-        <td><img src="/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="300"></td>  
-        <td><img src="/Layout_Bts.png" alt="Bootstrap Layout" width="300"></td>  
+        <td><img src="/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="600"></td>  
+        <td><img src="/Layout_Bts.png" alt="Bootstrap Layout" width="600"></td>  
       </tr>  
       <tr>  
         <td>Bootstrap Switch Schematic</td>  
-        <td>Amplifier Layout</td>  
+        <td>Bootstrap Switch Layout</td>  
       </tr>  
     </table>
   - Built a folded-cascode op-amp (60 dB gain, 100 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
