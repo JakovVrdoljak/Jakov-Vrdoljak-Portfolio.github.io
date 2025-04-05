@@ -34,7 +34,7 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
      <table>  
       <tr>  
         <td><img src="/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="300"></td>  
-        <td><img src="/amp_layout.png" alt="Bootstrap Layout" width="300"></td>  
+        <td><img src="/Layout_Bts.png" alt="Bootstrap Layout" width="300"></td>  
       </tr>  
       <tr>  
         <td>Bootstrap Switch Schematic</td>  
