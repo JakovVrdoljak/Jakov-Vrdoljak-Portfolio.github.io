@@ -66,14 +66,24 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td><img src="/Images/Povratna_veza_lt.png" alt="Feedback loop" width="600"></td> 
       </tr>  
       <tr>  
-        <td>Folded-casocode</td>  
-        <td>Power supply</td>  
-        <td>Constant-current generator and startup circuit</td>  
+        <td>Folded-casocode, power supply, Constant-current generator and startup circuit</td>   
         <td>Feedback loop</td>  
       </tr>  
     </table>
-  - Compared three configurations—full CMOS switches, bootstrap switches only at the input, and full bootstrap switches—evaluating power and linearity; completed layout for the second variant.  
-  - [Schematic](/bootstrap_switch_schematic.png) | [Layout](/Layout_Bts.png) | [Simulation Results](/thesis_sim.pdf)
+  - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches  
+  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 2.98V), ensuring robust performance under process variations.  
+  - *Switched-capacitor amplifier schematics and layout*
+     <table>  
+      <tr>  
+        <td><img src="/Images/switch_amp.png" alt="Switched-capacitor amplifier Schematic" width="600"></td>  
+        <td><img src="/Images/switch_amp_lt.png" alt="Switched-capacitor amplifier Layoutt" width="600"></td>  
+      </tr>  
+      <tr>  
+        <td>Switched-capacitor amplifier Schematic</td>  
+        <td>Switched-capacitor amplifier Layout</td>  
+      </tr>  
+    </table>
+  
 - **RF Circuits: High-Pass Filter**  
   *October 2022 - February 2023*  
   - Built a high-pass filter with F0 = 1.8 GHz.  
