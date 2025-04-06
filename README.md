@@ -59,6 +59,19 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td>Feedback loop</td>  
       </tr>  
     </table>
+  - *Layout*
+   <table>  
+      <tr>  
+        <td><img src="/Images/pojačalo_napajanje.png" alt="Folded-casocode, power supply, Constant-current generator and startup circuit" width="600"></td>  
+        <td><img src="/Images/Povratna_veza_lt.png" alt="Feedback loop" width="600"></td> 
+      </tr>  
+      <tr>  
+        <td>Folded-casocode</td>  
+        <td>Power supply</td>  
+        <td>Constant-current generator and startup circuit</td>  
+        <td>Feedback loop</td>  
+      </tr>  
+    </table>
   - Compared three configurations—full CMOS switches, bootstrap switches only at the input, and full bootstrap switches—evaluating power and linearity; completed layout for the second variant.  
   - [Schematic](/bootstrap_switch_schematic.png) | [Layout](/Layout_Bts.png) | [Simulation Results](/thesis_sim.pdf)
 - **RF Circuits: High-Pass Filter**  
