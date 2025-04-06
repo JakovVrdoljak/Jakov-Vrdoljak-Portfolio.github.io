@@ -71,8 +71,8 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
       </tr>  
     </table>
   - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches  
-  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations.  
-  -*_Switched-capacitor amplifier schematics and layout_*
+  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations.
+  - *Switched-capacitor amplifier schematics and layout*
      <table>  
       <tr>  
         <td><img src="/Images/switch_amp.png" alt="Switched-capacitor amplifier Schematic" width="600"></td>  
