@@ -27,11 +27,12 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
 ## Student Projects
 - **Master Thesis: Bootstrap Switch and Op-Amp for Pipeline ADC with Switched Capacitance**  
   *October 2023 - July 2024*  
-  - Designed a switched-capacitance amplifier with a bootstrap switch for a 8-bit pipeline ADC in 180nm CMOS technology using Cadence Virtuoso.  
+  - Designed a switched-capacitance amplifier with a bootstrap switch for an 8-bit pipeline ADC in 180nm CMOS technology using Cadence Virtuoso.  
   - Developed and compared a bootstrap switch (on-resistance <400Ω) against a standard CMOS switch, analyzing THD, SNR, and SFDR via transient simulations.  
-  - Created the switch layout, extracted parasitic components (e.g., capacitance, resistance), and compared performance degradation against the ideal bootstrap design.
-  - *Bootstrap schematics and layout*
-     <table>  
+  - Created the switch layout, extracted parasitic components (e.g., capacitance, resistance), and compared performance degradation against the ideal bootstrap design.  
+
+  - *Bootstrap schematics and layout*:  
+    <table>  
       <tr>  
         <td><img src="/Images/Bootstrap_switch.png" alt="Bootstrap Switch Schematic" width="600"></td>  
         <td><img src="/Images/Layout_Bts.png" alt="Bootstrap Layout" width="600"></td>  
@@ -40,43 +41,48 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td>Bootstrap Switch Schematic</td>  
         <td>Bootstrap Switch Layout</td>  
       </tr>  
-    </table>
+    </table>  
+
   - Built a folded-cascode op-amp (65 dB gain, 8.81 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
-  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.
-  - Designed the amplifier layout and feedback loop, extracted parasitics, and compared post-layout performance with pre-layout analysis.
-  - *Schemtics*
+  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.  
+  - Designed the amplifier layout and feedback loop, extracted parasitics, and compared post-layout performance with pre-layout analysis.  
+
+  - *Schematics*:  
     <table>  
       <tr>  
-        <td><img src="/Images/Preklopljena_kaskoda.png" alt="Folded-casocode" width="600"></td>  
+        <td><img src="/Images/Preklopljena_kaskoda.png" alt="Folded-cascode" width="600"></td>  
         <td><img src="/Images/Napajanje.png" alt="Power supply" width="600"></td>  
         <td><img src="/Images/iref.png" alt="Constant-current generator and startup circuit" width="600"></td>  
-        <td><img src="/Images/PK_FB.png" alt="Feedback loop" width="600"></td>
+        <td><img src="/Images/PK_FB.png" alt="Feedback loop" width="600"></td>  
       </tr>  
       <tr>  
-        <td>Folded-casocode</td>  
+        <td>Folded-cascode</td>  
         <td>Power supply</td>  
         <td>Constant-current generator and startup circuit</td>  
         <td>Feedback loop</td>  
       </tr>  
-    </table>
-  - *Layout*
-   <table>  
+    </table>  
+
+  - *Layout*:  
+    <table>  
       <tr>  
-        <td><img src="/Images/pojačalo_napajanje.png" alt="Folded-casocode, power supply, Constant-current generator and startup circuit" width="600"></td>  
-        <td><img src="/Images/Povratna_veza_lt.png" alt="Feedback loop" width="600"></td> 
+        <td><img src="/Images/pojačalo_napajanje.png" alt="Folded-cascode, power supply, Constant-current generator and startup circuit" width="600"></td>  
+        <td><img src="/Images/Povratna_veza_lt.png" alt="Feedback loop" width="600"></td>  
       </tr>  
       <tr>  
-        <td>Folded-casocode, power supply, Constant-current generator and startup circuit</td>   
+        <td>Folded-cascode, power supply, Constant-current generator and startup circuit</td>  
         <td>Feedback loop</td>  
       </tr>  
-    </table>
-  - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches  
-  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations. 
-  - *Switched-capacitor amplifier schematics and layout*: 
-     <table>  
+    </table>  
+
+  - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches.  
+  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations.  
+
+  - *Switched-capacitor amplifier schematics and layout*:  
+    <table>  
       <tr>  
         <td><img src="/Images/switch_amp.png" alt="Switched-capacitor amplifier Schematic" width="600"></td>  
-        <td><img src="/Images/switch_amp_lt.png" alt="Switched-capacitor amplifier Layoutt" width="600"></td>  
+        <td><img src="/Images/switch_amp_lt.png" alt="Switched-capacitor amplifier Layout" width="600"></td>  
       </tr>  
       <tr>  
         <td>Switched-capacitor amplifier Schematic</td>  
