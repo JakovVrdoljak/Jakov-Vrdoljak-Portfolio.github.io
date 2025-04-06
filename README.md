@@ -27,9 +27,9 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
 ## Student Projects
 - **Master Thesis: Bootstrap Switch and Op-Amp for Pipeline ADC with Switched Capacitance**  
   *October 2023 - July 2024*  
-  - Designed a switched-capacitance amplifier with a bootstrap switch for an 8-bit pipeline ADC in 180nm CMOS technology using Cadence Virtuoso.  
-  - Developed and compared a bootstrap switch (on-resistance <400Ω) against a standard CMOS switch, analyzing THD, SNR, and SFDR via transient simulations.  
-  - Created the switch layout, extracted parasitic components (e.g., capacitance, resistance), and compared performance degradation against the ideal bootstrap design.  
+  - Designed a switched-capacitance amplifier with a bootstrap switch for an 8-bit pipeline ADC in 180nm CMOS technology using Cadence Virtuoso  
+  - Developed and compared a bootstrap switch (on-resistance <400Ω) against a standard CMOS switch, analyzing THD, SNR, and SFDR via transient simulations  
+  - Created the switch layout, extracted parasitic components (e.g., capacitance, resistance), and compared performance degradation against the ideal bootstrap design  
 
   - *Bootstrap schematics and layout*:  
     <table>  
@@ -43,9 +43,9 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
       </tr>  
     </table>  
 
-  - Built a folded-cascode op-amp (65 dB gain, 8.81 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability.  
-  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation.  
-  - Designed the amplifier layout and feedback loop, extracted parasitics, and compared post-layout performance with pre-layout analysis.  
+  - Built a folded-cascode op-amp (65 dB gain, 8.81 MHz bandwidth) with a power supply, constant-current generator, and startup circuit; performed AC and DC analysis for stability  
+  - Implemented a feedback loop with CMOS switches, optimizing phase margin (>60°) and confirming stability under switched-capacitance operation  
+  - Designed the amplifier layout and feedback loop, extracted parasitics, and compared post-layout performance with pre-layout analysis  
 
   - *Schematics*:  
     <table>  
@@ -75,8 +75,8 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
       </tr>  
     </table>  
 
-  - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches.  
-  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations.  
+  - Analyzed the switched-capacitance amplifier’s THD, SNR, and SFDR, comparing configurations with full CMOS, input-only bootstrap, and full bootstrap switches  
+  - Conducted corner analysis across temperature (-40°C to 125°C) and voltage (1.62V to 1.98V), ensuring robust performance under process variations  
 
   - *Switched-capacitor amplifier schematics and layout*:  
     <table>  
