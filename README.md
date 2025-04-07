@@ -90,25 +90,104 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
       </tr>  
     </table>
   
-- **RF Circuits: High-Pass Filter**  
+- **RF Circuits: High-Pass Filter Design**  
   *October 2022 - February 2023*  
-  - Built a high-pass filter with F0 = 1.8 GHz.  
-  - *Tools*: LTspice, RF measurement tools.
+  - Designed a high-pass filter with a cutoff frequency of 1.8 GHz using AWR Microwave Office for an RF circuits course  
+  - Simulated filter performance in AWR, optimizing layout to meet given frequency and attenuation specifications  
+  - Translated design into a PCB layout using Altium Designer for fabrication  
+  - Sent design to production and tested prototype with a network analyzer, confirming expected cutoff frequency and performance  
 
-- **Seminar: Analog-to-Digital Converter**  
+- **Seminar: 8-Bit Analog-to-Digital Converter Design**  
   *October 2021 - June 2022*  
-  - Designed an ADC in 180nm technology.  
-  - *Tools*: Cadence Virtuoso.
+  - Designed an 8-bit ADC in 180nm CMOS technology using Cadence Virtuoso to convert analog signals to digital  
+  - Developed an 8-bit digital controller, simulated with ideal components to verify basic functionality  
+
+  - *Digital controller schematic*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/adc_controller.png" alt="Digital Controller Schematic" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Digital Controller Schematic</td>  
+      </tr>  
+    </table>  
+
+  - Incorporated an ideal 8-bit DAC to provide reference signals for conversion  
+
+  - *DAC schematic*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/adc_dac.png" alt="DAC Schematic" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>DAC Schematic</td>  
+      </tr>  
+    </table>  
+
+  - Implemented a Sample-and-Hold circuit using an ideal component due to incomplete transistor-level design  
+
+  - *Sample-and-Hold schematic*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/adc_snh.png" alt="Sample-and-Hold Schematic" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Sample-and-Hold Schematic</td>  
+      </tr>  
+    </table>  
+
+  - Designed a comparator with real transistor-level components, validating performance in simulation alongside ideal elements  
+
+  - *Comparator schematic*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/adc_comparator.png" alt="Comparator Schematic" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Comparator Schematic</td>  
+      </tr>  
+    </table>  
 
 - **Electronic Systems Design: Portable Sound Pressure Meter**  
   *March 2021 - July 2021*  
-  - Created a portable meter for sound pressure measurement.  
-  - *Tools*: Altium, C programming.
+  - Revised faulty schematics for a portable sound pressure meter, correcting component naming and ensuring compliance with manufacturer recommendations  
+  - Designed a PCB layout in Altium Designer, optimizing for signal integrity and manufacturability  
+  - Created comprehensive documentation, including block diagram, electrical schematic, operation description, technical specifications, user manual, bill of materials, component placement, PCB trace layout, and drilling plan  
+  - Validated design through simulation to confirm functionality for sound pressure measurement  
 
-- **Final Project: Frequency Divider**  
-  *October 2020 - June 2021*  
-  - Implemented in 180nm technology.  
-  - *Tools*: Cadence Virtuoso.
+  - *Schematic and PCB layout*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/spm_schematic.png" alt="Sound Pressure Meter Schematic" width="400"></td>  
+        <td><img src="/Images/spm_layout.png" alt="Sound Pressure Meter PCB Layout" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Sound Pressure Meter Schematic</td>  
+        <td>Sound Pressure Meter PCB Layout</td>  
+      </tr>  
+    </table>  
+
+- **Final Bachelor Project: Frequency Divider for Phase-Locked Loop**  
+  *February 2022 - July 2022*  
+  - Designed a frequency divider in 180nm CMOS technology using Cadence Virtuoso as part of a team project to build a PLL generating a stable 10 MHz output  
+  - Developed a two-stage frequency divider, reducing a 10 MHz PLL output to 1 MHz for feedback, with a divide-by-2 stage followed by a divide-by-5 stage  
+  - Created and simulated the electrical schematic, verifying functionality at nominal temperature and supply voltage (1.8V)  
+  - Conducted corner analysis across temperature (-40°C to 125°C), voltage (1.62V to 1.98V), and process variations, confirming robust operation  
+  - Designed the topological layout, detailing component placement and routing  
+  - Extracted parasitic components from the layout and validated performance through post-layout simulations  
+  - Added test circuits to facilitate verification of the fabricated chip’s operation  
+
+  - *Frequency divider schematic and layout*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/freq_div_schematic.png" alt="Frequency Divider Schematic" width="400"></td>  
+        <td><img src="/Images/freq_div_layout.png" alt="Frequency Divider Layout" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Frequency Divider Schematic</td>  
+        <td>Frequency Divider Layout</td>  
+      </tr>  
+    </table>
 
 ## Education
 - **Master’s Degree in Electrical Engineering and Information Technology**  
