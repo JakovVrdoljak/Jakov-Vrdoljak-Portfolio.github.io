@@ -113,31 +113,8 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
     </table>  
 
   - Incorporated an ideal 8-bit DAC to provide reference signals for conversion  
-
-  - *DAC schematic*:  
-    <table>  
-      <tr>  
-        <td><img src="/Images/adc_dac.png" alt="DAC Schematic" width="400"></td>  
-      </tr>  
-      <tr>  
-        <td>DAC Schematic</td>  
-      </tr>  
-    </table>  
-
   - Implemented a Sample-and-Hold circuit using an ideal component due to incomplete transistor-level design  
-
-  - *Sample-and-Hold schematic*:  
-    <table>  
-      <tr>  
-        <td><img src="/Images/adc_snh.png" alt="Sample-and-Hold Schematic" width="400"></td>  
-      </tr>  
-      <tr>  
-        <td>Sample-and-Hold Schematic</td>  
-      </tr>  
-    </table>  
-
-  - Designed a comparator with real transistor-level components, validating performance in simulation alongside ideal elements  
-
+  - Designed a comparator with real transistor-level components based on “A 500-MSample/s, 6-Bit Nyquist-Rate for Disk-Drive Read Channel Applications,” validating performance in simulation alongside ideal elements  
   - *Comparator schematic*:  
     <table>  
       <tr>  
@@ -147,6 +124,16 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td>Comparator Schematic</td>  
       </tr>  
     </table>  
+
+      - *Complete ADC schematic*:  
+    <table>  
+      <tr>  
+        <td><img src="/Images/adc_complete.png" alt="Complete ADC Schematic" width="400"></td>  
+      </tr>  
+      <tr>  
+        <td>Complete ADC Schematic</td>  
+      </tr>  
+    </table>
 
 - **Electronic Systems Design: Portable Sound Pressure Meter**  
   *March 2021 - July 2021*  
