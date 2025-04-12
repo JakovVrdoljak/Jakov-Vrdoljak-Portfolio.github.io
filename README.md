@@ -1,28 +1,28 @@
 # Jakov Vrdoljak - Portfolio
-Electronics engineer specializing in microelectronics and embedded hardware. Experienced in IC design, PCB routing, and NB-IoT development.
+Electronics engineer specializing in microelectronics and embedded hardware. Experienced in IC design, PCB routing, and NB-IoT development
 
 ## Work Experience
 - **Junior Embedded Engineer, Holosys**  
   *July 2024 - Present*  
-  - Developing NB-IoT devices, routing PCBs, and performing impedance matching for antennas.  
-  - Testing device performance and writing documentation.  
-  - *Tools*: Altium Designer, measurement equipment.
+  - Developing NB-IoT devices, routing PCBs, and performing impedance matching for antennas 
+  - Testing device performance and writing documentation 
+  - *Tools*: Altium Designer, measurement equipment
 
 - **Junior Layout Engineer, Inovacijski centar Nikola Tesla**  
   *March 2023 - November 2023*  
-  - Designed layouts for test cells, ensuring LVS and DRC compliance.  
-  - *Tools*: Cadence Virtuoso.
+  - Designed layouts for test cells, ensuring LVS and DRC compliance
+  - *Tools*: Cadence Virtuoso
 
 - **Embedded Hardware EMC Engineer Intern, Rimac Technology**  
   *July 2022 - September 2022*  
-  - Designed PCB traces for differential pairs and single-ended signals.  
-  - Reviewed PCBs for EMC compliance and wrote a Python script to calculate PCB dielectric constant using S-parameters.  
-  - *Tools*: Altium, Python.
+  - Designed PCB traces for differential pairs and single-ended signals  
+  - Reviewed PCBs for EMC compliance and wrote a Python script to calculate PCB dielectric constant using S-parameters  
+  - *Tools*: Altium, Python
 
 - **Technical Support, Končar INEM**  
   *July 2021 - August 2021*  
-  - Added components to Altium Vault and routed PCBs.  
-  - *Tools*: Altium Designer.
+  - Added components to Altium Vault and routed PCBs  
+  - *Tools*: Altium Designer
 
 ## Student Projects
 - **Master Thesis: Bootstrap Switch and Op-Amp for Pipeline ADC with Switched Capacitance**  
@@ -134,25 +134,6 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
         <td>Complete ADC Schematic</td>  
       </tr>  
     </table>
-
-- **Electronic Systems Design: Portable Sound Pressure Meter**  
-  *March 2021 - July 2021*  
-  - Revised faulty schematics for a portable sound pressure meter, correcting component naming and ensuring compliance with manufacturer recommendations  
-  - Designed a PCB layout in Altium Designer, optimizing for signal integrity and manufacturability  
-  - Created comprehensive documentation, including block diagram, electrical schematic, operation description, technical specifications, user manual, bill of materials, component placement, PCB trace layout, and drilling plan  
-  - Validated design through simulation to confirm functionality for sound pressure measurement  
-
-  - *Schematic and PCB layout*:  
-    <table>  
-      <tr>  
-        <td><img src="/Images/spm_schematic.png" alt="Sound Pressure Meter Schematic" width="400"></td>  
-        <td><img src="/Images/spm_layout.png" alt="Sound Pressure Meter PCB Layout" width="400"></td>  
-      </tr>  
-      <tr>  
-        <td>Sound Pressure Meter Schematic</td>  
-        <td>Sound Pressure Meter PCB Layout</td>  
-      </tr>  
-    </table>  
 
 - **Final Bachelor Project: Frequency Divider for Phase-Locked Loop**  
   *February 2022 - July 2022*  
