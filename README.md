@@ -1,5 +1,5 @@
 # Jakov Vrdoljak - Portfolio
-Electronics engineer specializing in microelectronics and embedded hardware. Experienced in IC design, PCB routing, and NB-IoT development
+Electronics engineer specializing in microelectronics and embedded hardware. Experienced in IC design, PCB routing, and NB-IoT development.
 
 ## Work Experience
 - **Junior Embedded Engineer, Holosys**  
