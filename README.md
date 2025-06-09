@@ -173,6 +173,15 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
 - *Hardware*: PCB design, impedance matching, EMC testing  
 - *Languages*: English (fluent)
 
+## Development Roadmap & Projects
+- This roadmap documents my learning progress and hands-on work in PCB, analog, FPGA, and ASIC design. Each project links to a dedicated folder with schematics, code, simulations, and documentation.
+
+| Level | Category         | Project                                    | Status        | Link                        |
+|-------|------------------|--------------------------------------------|---------------|-----------------------------|
+| 0     | Analog           | USB-Powerd Cup Heater                      |  In Progress  |                             |
+
+
+
 ## Interests & Volunteering
 - *Interests*: Chess, gym, climbing, hiking, cycling, running, snowboarding  
 - *Volunteering*:  
