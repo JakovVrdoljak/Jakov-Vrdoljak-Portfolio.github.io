@@ -1,6 +1,6 @@
 # 🔥 USB-Powered Cup Heater
 
-A compact, low-power cup warmer powered via USB. Designed for light thermal applications and hobby use. This project explores safe power routing, thermal management, and USB power limits within a real-world PCB prototype.
+
 
 ---
 
