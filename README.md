@@ -178,7 +178,7 @@ Electronics engineer specializing in microelectronics and embedded hardware. Exp
 
 | Level | Category         | Project                                    | Status        | Link                        |
 |-------|------------------|--------------------------------------------|---------------|-----------------------------|
-| 0     | Analog           | USB-Powerd Cup Heater                      |  In Progress  |                             |
+| 0     | Analog           | USB-Powerd Cup Heater                      |  In Progress  |  [📁](./Projects/00_USB_Cup_Heater) |
 
 
 
