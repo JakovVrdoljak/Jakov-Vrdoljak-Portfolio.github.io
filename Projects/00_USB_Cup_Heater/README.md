@@ -1,5 +1,8 @@
 ## 🔥 Project Overview: USB-Powered Cup Heater
 
+> ⚠️ **Work in Progress**  
+> This project is currently under development and will be updated gradually.
+
 Most commercial cup heaters rely on wall adapters that provide higher current and voltage than what standard USB ports can deliver. This project explores the design of a compact cup heater that operates on **USB power**, while working around its inherent power limitations.
 
 ### 💡 Key Idea
