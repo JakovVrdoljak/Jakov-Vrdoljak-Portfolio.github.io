@@ -61,5 +61,14 @@ Temperature is controlled using a **PTC thermistor**, a **potentiometer** to set
    - Temp < threshold (from potentiometer)
 4. Once temp is reached, comparator disables BJT → heater off.
 
----
+## 📸 Photos & Screenshots
+
+### Full Schematic  
+![schematic](Images/schematic.png)
+
+### PCB Layout  
+![layout](Images/layout.png)
+
+
+
 
